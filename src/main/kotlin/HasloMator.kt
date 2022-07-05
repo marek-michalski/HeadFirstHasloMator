@@ -14,14 +14,4 @@ fun main(args: Array<String>){
     val phrase = "${wordArray1[rand1]} ${wordArray2[rand2]} ${wordArray3[rand3]}"
     println(phrase)
 
-    //dodatkowa funkcja
-    val index = arrayOf(1,3,4,2)
-    var fruit = arrayOf("Jablko", "Banan","Wisnie", "Jagody", "Granat")
-    var x =0
-    var y: Int
-    while (x < 4) {
-        y = index[x]
-        println("Owoc = ${fruit[y]}")
-        x += 1
-    }
 }
